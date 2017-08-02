@@ -400,9 +400,8 @@ class dac_vector
         }
 
         //! Constructor for a Container of unsigned integers.
-        /*! \param c A container of unsigned integers.
-            \pre No two adjacent values should be equal.
-          */
+        //! \param c A container of unsigned integers. 
+ 
         template<class Container>
         dac_vector(const Container& c);
 
